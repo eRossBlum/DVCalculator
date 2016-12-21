@@ -11,11 +11,11 @@ public class InputField extends JTextField implements DocumentListener {
     }
 
     public void removeUpdate(DocumentEvent e) {
-        Main.update();
+        Tsiolkovsky.update();
     }
 
     public void insertUpdate(DocumentEvent e) {
-        Main.update();
+        Tsiolkovsky.update();
     }
 
     public void changedUpdate(DocumentEvent e) {
