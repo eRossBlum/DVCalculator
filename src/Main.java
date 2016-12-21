@@ -58,7 +58,7 @@ public class Main extends JFrame {
     }
     //if invalid inputs, outputs "###", if valid inputs, outputs DV
     public static String calculateDv(double[] values) {
-        if (values.length == 1 || values[2] == 0) {
+        if (values.length == 1 || values[1] == 0 || values[2] == 0) {
             return "###";
         }
         double ve = 9.81*values[0];
